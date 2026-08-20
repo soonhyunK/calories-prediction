@@ -1,10 +1,10 @@
-# 🔥 신체 활동 기반 칼로리 소모량 예측
+# 신체 활동 기반 칼로리 소모량 예측
 
 > **리더보드 RMSE 0.06642 달성** | 2단계 앙상블 파이프라인 | 도메인 지식 기반 피처 엔지니어링
 
 ---
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 
 운동 시간, 심박수, 체온, 체중 등 신체 활동 데이터를 기반으로  
 칼로리 소모량을 정밀 예측하는 머신러닝 모델을 개발했습니다.  
@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠 사용 기술
+## 사용 기술
 
 ```
 Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
@@ -27,7 +27,7 @@ Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
 
 ---
 
-## 🔍 핵심 전략
+## 핵심 전략
 
 ### 1. 2단계 파이프라인
 어려운 회귀 문제를 두 개의 단순한 문제로 분해
@@ -57,7 +57,7 @@ Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
 
 ---
 
-## 📊 모델 비교
+## 모델 비교
 
 | 모델 | 분할 방식 | 선택 이유 |
 |------|----------|----------|
@@ -67,7 +67,7 @@ Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
 
 ---
 
-## 💡 주요 인사이트
+## 주요 인사이트
 
 - Ridge로 소수점까지 복원 후 올림/버림만 분류하는 2단계 전략이 핵심
 - 운동 생리학 지식 기반 피처 설계가 모델 성능 향상에 직접 기여
@@ -75,7 +75,7 @@ Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
 
 ---
 
-## 📁 파일 구성
+## 파일 구성
 
 ```
 📁 calories-prediction
@@ -86,6 +86,6 @@ Python | pandas | scikit-learn | XGBoost | LightGBM | RandomForest | scipy
 
 ---
 
-## 👤 작성자
+## 작성자
 
 **권순현** | 오즈코딩스쿨 의료 AI 헬스케어 | 2026
